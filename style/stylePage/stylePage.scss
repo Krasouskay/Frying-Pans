@@ -67,7 +67,7 @@
     }
 
         .header__cart {
-            background-image: url(../../assets/icons/Nav/Rectangle.png);
+            background-image: url(../../assets/background/carBg.svg);
             height: 35px;
             width: 35px;
     
@@ -486,6 +486,9 @@
             letter-spacing: 1.2px;
             max-width: 477px;
             cursor: pointer;
+            @media (max-width: 530px){
+                line-height: 45px;
+            }
         }
 
         .gallery__subtitle {

@@ -97,7 +97,7 @@ a {
   }
 }
 .header__nav .header__cart {
-  background-image: url(../../assets/icons/Nav/Rectangle.png);
+  background-image: url(../../assets/background/carBg.svg);
   height: 35px;
   width: 35px;
 }
@@ -532,6 +532,11 @@ a {
   letter-spacing: 1.2px;
   max-width: 477px;
   cursor: pointer;
+}
+@media (max-width: 530px) {
+  .gallery .gallery__content .gallery__title {
+    line-height: 45px;
+  }
 }
 .gallery .gallery__content .gallery__subtitle {
   padding-top: 20px;
