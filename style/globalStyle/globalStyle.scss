@@ -1,0 +1,41 @@
+// миксины
+// сброс стилей
+// контейнер
+// общие кнопки и елементы
+
+@import '../vars/vars.scss';
+
+html, body{
+    height: 100%;
+}
+
+.container {
+    max-width: 1370px;
+    width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    flex: 1 1 auto;
+}
+
+a{
+    text-decoration: none;
+    color: $C_title;
+    cursor: pointer;
+}
+
+.description{
+    color: rgba(110, 98, 89, 1);
+    font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+text-transform: uppercase;
+}
